@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 calc((100vw - 980px) / 2);
+    height: calc(100vh - 59px - 59px - 1rem);
+    img{
+        width: 100%;
+        padding: 3rem;
+    }
+    .content{
+        padding: 3rem;
+        p{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        button{
+            padding: 0.5rem 1rem;
+            border: none;
+            outline: none;
+            background: #61DAFB;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
